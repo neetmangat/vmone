@@ -12,20 +12,22 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="circle">
-          <br />
-          CONSPIRACY
-          <br />
-          THEORY
-          <br />
-          SECRETS
-        </div>
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            CONSPIRACY
+            <br />
+            THEORY
+            <br />
+            CENTRAL
+          </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
-        Splurting out the deep truth from the deep state since 2020.
+        Splurting out deep truths since 2020.
       </div>
       <div class="col-5 links">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
@@ -42,10 +44,10 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <%= link_to "This isn't enough, I need more!", "#", class: 'next-quote' %>
+            <%= link_to "This isn't enough, I need more!", root_path, class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
-            Proudly designed to spread conspiracy by <a href="http://gmangat.netlify.app">Neet</a><br />
+            Proudly designed for your entertainment by <a href="http://gmangat.netlify.app">Neet</a><br />
           </div>
         </div>
       </div>
