@@ -75,6 +75,13 @@ h2 {
     color: #1FDE43;
 }
 
+h3 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    color: #1FDE43;
+}
+
 .next-quote {
     color: #f84342;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -91,4 +98,12 @@ h2 {
 
 .logo:hover {
     text-decoration: none;
+}
+
+p {
+    color: white;
+}
+
+.about {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
