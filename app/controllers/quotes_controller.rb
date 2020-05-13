@@ -3,9 +3,7 @@ class QuotesController < ApplicationController
         @quote = Quote.order(Arel.sql("RANDOM()")).first
     end
 
-    def new
-        @quote = Quote.new
-    end
+
 
     def create
         @quote = Quote.create(quote_params)

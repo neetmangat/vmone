@@ -9,6 +9,30 @@ body {
     font-weight: bold;
 }
 
+
+ .modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    color: #1FDE43;
+    font-weight: bold;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+
+ .modal-content {
+    background-color: #333;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+
 .clear {
     clear: both;
 }
@@ -86,6 +110,10 @@ h3 {
     color: #f84342;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 20px;
+}
+
+.next-quote:hover {
+    color: #f84342;
 }
 
 .footer-blurb {
