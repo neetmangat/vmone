@@ -6,7 +6,7 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Conspiracy">
+    <meta name="apple-mobile-web-app-title" content="Conspiracies">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <link href="splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
@@ -29,7 +29,7 @@
 
   <body>
     <header class="row">
-      <div class="col-3">
+      <div class="col-2">
         <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
             <br />
@@ -41,13 +41,13 @@
           </div>
         <% end %>
       </div>
-      <div class="col col-sm-4 hidden-xs-down slogan">
+      <div class="col col-sm-5 hidden-xs-down slogan">
         Splurting out deep truths since 2020.
       </div>
-      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
+      <div class="col-6 offset-4 offset-sm-0 col-sm-5 links">
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
         <%= link_to 'About', about_path %>
       </div>
     </header>
@@ -97,10 +97,10 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-6">
-            <%= link_to "This isn't enough, I need more!", root_path, class: 'next-quote' %>
+          <div class="col-8 col-sm-6">
+            <%= link_to "Tell Me More!", root_path, class: 'next-quote' %>
           </div>
-          <div class="col-12 col-sm-6 footer-blurb">
+          <div class="col-4 col-sm-6 footer-blurb">
             Proudly designed for your entertainment by <a href="http://nmangat.netlify.app">Neet</a><br />
           </div>
         </div>
