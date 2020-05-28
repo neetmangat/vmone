@@ -66,9 +66,9 @@
           </div>
           <%= simple_form_for Quote.new, :html=> { class: 'heading' } do |f| %>
             <div class="modal-body">
-                <%= f.input :saying, label: "Add a conspiracy that you've heard of", placeholder: "I've heard that..." %>
+                <%= f.input :saying, label: "Add a conspiracy:", placeholder: "I've heard that..." %>
                 <br />
-                <%= f.input :author, label: "What's your name (or enter 'Anonymous')", placeholder: "Anonymous" %>
+                <%= f.input :author, label: "Author (or Anonymous):", placeholder: "Anonymous" %>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
